@@ -1,0 +1,28 @@
+{
+  "name": "dickcoin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./bin/dickcoin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WielebaMariusz/dickcoin.git"
+  },
+  "author": "MDIG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WielebaMariusz/dickcoin/issues"
+  },
+  "homepage": "https://github.com/WielebaMariusz/dickcoin#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "commnader": "0.0.1-security",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.1.0"
+  }
+}
