@@ -1,7 +1,7 @@
 {
   "name": "dickcoin",
   "version": "1.0.0",
-  "description": "",
+  "description": "Crypto-currency tracker for command line interface",
   "main": "index.js",
   "bin": "./bin/dickcoin.js",
   "scripts": {
@@ -12,16 +12,8 @@
     "crypto prices",
     "bitcoin"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WielebaMariusz/dickcoin.git"
-  },
   "author": "MDIG Mariusz Wieleba",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/WielebaMariusz/dickcoin/issues"
-  },
-  "homepage": "https://github.com/WielebaMariusz/dickcoin#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "colors": "^1.4.0",
@@ -29,5 +21,13 @@
     "configstore": "^5.0.1",
     "inquirer": "^7.1.0",
     "jetty": "^0.2.1"
+  },
+  "homepage": "https://github.com/WielebaMariusz/dickcoin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WielebaMariusz/dickcoin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WielebaMariusz/dickcoin/issues"
   }
 }
