@@ -7,12 +7,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "cryptocurrency",
+    "crypto prices",
+    "bitcoin"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WielebaMariusz/dickcoin.git"
   },
-  "author": "MDIG",
-  "license": "ISC",
+  "author": "MDIG Mariusz Wieleba",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/WielebaMariusz/dickcoin/issues"
   },
@@ -21,7 +26,6 @@
     "axios": "^0.19.2",
     "colors": "^1.4.0",
     "commander": "^5.0.0",
-    "commnader": "0.0.1-security",
     "configstore": "^5.0.1",
     "inquirer": "^7.1.0",
     "jetty": "^0.2.1"
