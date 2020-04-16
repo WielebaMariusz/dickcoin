@@ -23,6 +23,7 @@
     "commander": "^5.0.0",
     "commnader": "0.0.1-security",
     "configstore": "^5.0.1",
-    "inquirer": "^7.1.0"
+    "inquirer": "^7.1.0",
+    "jetty": "^0.2.1"
   }
 }
