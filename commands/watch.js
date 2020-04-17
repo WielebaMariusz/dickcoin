@@ -1,8 +1,8 @@
 const inquirer = require('inquirer');
 const colors = require('colors');
-const KeyManager = require('../lib/KeyManager');
 const CryptoAPI = require('../lib/CryptoAPI');
 const Jetty = require("jetty");
+const { constants } = require('../constants/constants')
 
 const watch = {
   price(cmd) {
@@ -19,9 +19,7 @@ const watch = {
 async function checkPrice(cmd, jetty) {
   try {
     jetty.moveTo([1,0]);
-    const keyManager = new KeyManager();
-    const key = keyManager.getKey()
-    const api = new CryptoAPI(key);
+    const api = new CryptoAPI(constants.APIKey);
 
     const priceOutputData = await api.getPriceData(cmd.coin, cmd.cur);
 

@@ -1,15 +1,19 @@
 {
   "name": "dickcoin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Crypto-currency tracker for command line interface",
-  "main": "index.js",
-  "bin": "./bin/dickcoin.js",
+  "main": "./bin/dickcoin.js",
+  "bin": {
+    "dickcoin": "./bin/dickcoin.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "cryptocurrency",
-    "crypto prices",
+    "crypto",
+    "prices",
+    "crypto-prices",
     "bitcoin"
   ],
   "author": "MDIG Mariusz Wieleba",
