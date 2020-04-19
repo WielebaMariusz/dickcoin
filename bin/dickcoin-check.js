@@ -1,11 +1,18 @@
 const program = require('commander');
 const check = require('../commands/check');
+const watch = require('../commands/watch');
 
 program
   .command('price')
-  .description('👀 - check price of coins')
-  .option('--coin <type>', 'Add specific coin types', 'BTC,ETH,ICX')
-  .option('--cur <currency>', 'Change the currency', 'USD')
+  .description('🧐 - check price of coins')
+  .option('--coin <type>', 'add specific coin types', 'BTC,ETH,ICX,XRP,XLM')
+  .option('--cur <currency>', 'change the currency', 'USD')
   .action((cmd) => check.price(cmd))
+
+program
+  .command('check-price')
+  .description('🧐📄 - check cryptocurrency prices from watchlist')
+  .option('--cur <currency>', 'change the currency', 'USD')
+  .action((cmd) => watchlist.price(cmd));
 
 program.parse(process.argv);
