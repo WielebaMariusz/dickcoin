@@ -1,6 +1,7 @@
 const program = require('commander');
 const check = require('../commands/check');
 const watch = require('../commands/watch');
+const watchlist = require('../commands/watchlist')
 
 program
   .command('price')
@@ -10,7 +11,7 @@ program
   .action((cmd) => check.price(cmd))
 
 program
-  .command('check-price')
+  .command('watchlist-price')
   .description('🧐📄 - check cryptocurrency prices from watchlist')
   .option('--cur <currency>', 'change the currency', 'USD')
   .action((cmd) => watchlist.price(cmd));
